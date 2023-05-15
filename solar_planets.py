@@ -4,56 +4,59 @@ cv2.imshow("display image",img)
 cv2.waitKey(0)
 cv2.putText(img,
             "Sun",
-            (20,300),
+            (100,80),
             cv2.FONT_HERSHEY_COMPLEX,
-            0.5,
+           2,
             (255,255,255))
 cv2.putText(img,
             "Mercury",
-            (40,300),
+            (110,180),
             cv2.FONT_HERSHEY_COMPLEX,
             0.5,
             (255,255,255))
 cv2.putText(img,
             "Venus",
-            (60,300),
+            (190,270),
             cv2.FONT_HERSHEY_COMPLEX,
             0.5,
             (255,255,255))
 cv2.putText(img,
             "Earth",
-            (80,300),
+            (300,270),
             cv2.FONT_HERSHEY_COMPLEX,
             0.5,
             (255,255,255))
 cv2.putText(img,
             "Mars",
-            (100,300),
+            (400,270),
             cv2.FONT_HERSHEY_COMPLEX,
             0.5,
             (255,255,255))
 cv2.putText(img,
             "Saturn",
-            (120,300),
+            (500,90),
             cv2.FONT_HERSHEY_COMPLEX,
             0.5,
             (255,255,255))
 cv2.putText(img,
             "Jupiter",
-            (140,300),
+            (720,110),
             cv2.FONT_HERSHEY_COMPLEX,
             0.5,
             (255,255,255))
 cv2.putText(img,
             "Uranus",
-            (160,300),
+            (950,130),
             cv2.FONT_HERSHEY_COMPLEX,
             0.5,
             (255,255,255))
 cv2.putText(img,
             "Neptune",
-            (180,300),
+            (1080,130),
             cv2.FONT_HERSHEY_COMPLEX,
             0.5,
             (255,255,255))
-cv2.imwrite("solarSytemnew",img)
+
+cv2.imshow("output",img)
+cv2.waitKey(0)
+cv2.imwrite("solarSytemnew.jpg",img)
